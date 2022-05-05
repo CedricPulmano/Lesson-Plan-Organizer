@@ -1,0 +1,78 @@
+{
+  "name": "Bilgewater Pirates",
+  "lessons": [
+    {
+      "title": "Powder Keg Barrel Technology",
+      "timeToTeach": 90,
+      "requirements": [
+        {
+          "requirement": "Pirate Captain"
+        },
+        {
+          "requirement": "Loves Oranges"
+        }
+      ]
+    },
+    {
+      "title": "Walking the Plank",
+      "timeToTeach": 15,
+      "requirements": []
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Gangplank",
+      "certifications": [
+        {
+          "certification": "Pirate Captain"
+        },
+        {
+          "certification": "Loves Oranges"
+        },
+        {
+          "certification": "Greedy"
+        }
+      ]
+    },
+    {
+      "name": "Miss Fortune",
+      "certifications": []
+    }
+  ],
+  "students": [
+    {
+      "name": "Lucian"
+    },
+    {
+      "name": "Graves"
+    },
+    {
+      "name": "Pyke"
+    }
+  ],
+  "teaching history": [
+    {
+      "lessonTitle": "Plundering Villages",
+      "teacherName": "Gangplank",
+      "studentNames": [
+        {
+          "name": "Lucian"
+        },
+        {
+          "name": "Graves"
+        }
+      ],
+      "date": "03/25/1594"
+    },
+    {
+      "lessonTitle": "Walking the Plank",
+      "teacherName": "Miss Fortune",
+      "studentNames": [
+        {
+          "name": "Lucian"
+        }
+      ],
+      "date": "08/26/1603"
+    }
+  ]
+}

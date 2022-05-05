@@ -1,0 +1,54 @@
+{
+    "teaching history": [
+        {
+            "date": "07/27/0001",
+            "lessonTitle": "Starting Fires",
+            "teacherName": "Caveman Carl",
+            "studentNames": [
+                {"name": "Ooga Booga Oleg"},
+                {"name": "Blacksmith Bart"}
+            ]
+        },
+        {
+            "date": "09/30/1450",
+            "lessonTitle": "Making Tools",
+            "teacherName": "Stone Age Sam",
+            "studentNames": [{"name": "Blacksmith Bart"}]
+        }
+    ],
+    "teachers": [
+        {
+            "name": "Caveman Carl",
+            "certifications": []
+        },
+        {
+            "name": "Stone Age Sam",
+            "certifications": [
+                {"certification": "Dexterity"},
+                {"certification": "Strength"},
+                {"certification": "Craftsmanship"}
+            ]
+        }
+    ],
+    "name": "Evolution Plan!",
+    "students": [
+        {"name": "Neanderthal Ned"},
+        {"name": "Ooga Booga Oleg"},
+        {"name": "Blacksmith Bart"}
+    ],
+    "lessons": [
+        {
+            "requirements": [],
+            "timeToTeach": 90,
+            "title": "Starting Fires"
+        },
+        {
+            "requirements": [
+                {"requirement": "Craftsmanship"},
+                {"requirement": "Strength"}
+            ],
+            "timeToTeach": 200,
+            "title": "Making Tools"
+        }
+    ]
+}

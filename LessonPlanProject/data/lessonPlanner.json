@@ -1,0 +1,41 @@
+{
+    "teaching history": [{
+        "date": "2/29/2004",
+        "lessonTitle": "CPSC210",
+        "teacherName": "Felix",
+        "studentNames": [
+            {"name": "Stan"},
+            {"name": "Kenny"},
+            {"name": "Cartman"}
+        ]
+    }],
+    "teachers": [
+        {
+            "name": "Felix",
+            "certifications": [
+                {"certification": "Smart"},
+                {"certification": "Jolly"},
+                {"certification": "Alpha"}
+            ]
+        },
+        {
+            "name": "Cedric",
+            "certifications": [
+                {"certification": "Smart"},
+                {"certification": "Cool"},
+                {"certification": "Deserves 100%"}
+            ]
+        }
+    ],
+    "name": "South Park",
+    "students": [
+        {"name": "Stan"},
+        {"name": "Kenny"},
+        {"name": "Cartman"}
+    ],
+    "lessons": [{
+        "requirements": [{"requirement": "Smart"}],
+        "timeToTeach": 90,
+        "title": "CPSC210"
+    }]
+}
