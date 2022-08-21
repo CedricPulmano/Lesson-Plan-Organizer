@@ -31,7 +31,8 @@
     "students": [
         {"name": "Stan"},
         {"name": "Kenny"},
-        {"name": "Cartman"}
+        {"name": "Cartman"},
+        {"name": "Kyle"}
     ],
     "lessons": [{
         "requirements": [{"requirement": "Smart"}],
