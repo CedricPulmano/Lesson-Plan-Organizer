@@ -26,7 +26,7 @@ public class LessonPlannerGUI implements ActionListener, WindowListener {
     private LessonPlan lessonPlan;
     private JsonReader jsonReader;
     private JsonWriter jsonWriter;
-    private static final String JSON_STORE = "./data/lessonPlanner.json";
+    private static final String JSON_STORE = "./LessonPlanProject/data/lessonPlanner.json";
 
     private JFrame mainFrame;
     private JPanel mainPanel;
@@ -135,9 +135,9 @@ public class LessonPlannerGUI implements ActionListener, WindowListener {
     private void createMenu() {
         menuBar = new JMenuBar();
         menu = new JMenu("Data Options");
-        saveItem = new JMenuItem("Save", ElementCreator.makeSmallIcon("data/saveIcon.gif"));
+        saveItem = new JMenuItem("Save", ElementCreator.makeSmallIcon("./LessonPlanProject/data/saveIcon.gif"));
         saveItem.addActionListener(this);
-        loadItem = new JMenuItem("Load", ElementCreator.makeSmallIcon("data/loadIcon.gif"));
+        loadItem = new JMenuItem("Load", ElementCreator.makeSmallIcon("./LessonPlanProject/data/loadIcon.gif"));
         loadItem.addActionListener(this);
         menu.add(saveItem);
         menu.add(loadItem);
@@ -247,7 +247,7 @@ public class LessonPlannerGUI implements ActionListener, WindowListener {
     // MODIFIES: this
     // EFFECTS: writes the amount of students in the lesson plan and makes a happy face :)
     private void setHappyFaces() {
-        happyFaces.setIcon(ElementCreator.makeSmallIcon("data/happyFace.png"));
+        happyFaces.setIcon(ElementCreator.makeSmallIcon("./LessonPlanProject/data/happyFace.png"));
         int students = lessonPlan.getStudents().size();
         if (students == 1) {
             happyFaces.setText("Hooray! We have " + students + " student!");

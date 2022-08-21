@@ -17,7 +17,7 @@ import java.util.Scanner;
 // a lesson planner helper to assist lesson planner
 public class LessonPlannerHelper {
 
-    private static final String JSON_STORE = "./data/lessonPlanner.json";
+    private static final String JSON_STORE = "./LessonPlanProject/data/lessonPlanner.json";
     private JsonReader jsonReader;
     private JsonWriter jsonWriter;
     private LessonPlan lp;
